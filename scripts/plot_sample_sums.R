@@ -36,7 +36,7 @@ barplot <- barplot_input %>%
   ggplot2::scale_y_continuous(labels = scales::label_comma()) +
   ggplot2::facet_wrap(~ pm_id, scales = "free_y") +
   labs(x = "Sample ID", y = "Abundance", fill = "Run", 
-       title = "Abundance of microbial taxa across lung samples and Illumina iSeq 100 runs")
+       title = "Abundance of microbial taxa across samples and Illumina iSeq 100 runs")
 
 # Save
 ggplot2::ggsave(
