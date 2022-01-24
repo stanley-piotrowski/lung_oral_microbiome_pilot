@@ -28,12 +28,7 @@ files <- purrr::map(c("OTU", "taxonomy", "tree"), ~ read_phylo_files(.x))
 
 # Read metadata-- include this as sample data in the phyloseq object
 sample_metadata <- readr::read_tsv("./metadata/sample_metadata.txt", show_col_types = FALSE) %>% 
-  dplyr::select(-c(8:9)) %>% 
-  dplyr::slice_head(n = 9) %>% 
-  purrr::set_names("library_prep_id", "dna_extract_id", "pm_number", "appt_date", "sample_type", 
-                   "swab_buffer", "re_reviewed") %>% 
   tibble::column_to_rownames("library_prep_id") # need to match column names in OTU table
-  
 
 # Tidy tables -------------------------------------------------------------
 
