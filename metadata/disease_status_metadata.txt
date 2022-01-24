@@ -1,0 +1,18 @@
+pm_id	tumor_type
+PM01	"Unknown metastasis, probably urothelial cancer"
+PM02	Metastatic breast cancer
+PM03	Adenosquamous lung cancer with locoregional spread
+PM04	"""Healthy"" (no ID'd cancer or infection, possible sarcoidosis but not truly diagnosed)"
+PM05	Small cell lung cancer
+PM06	No specific abnormalities. Pt has history of cutaneous B cell lymphoma.
+PM07	NSCLC
+PM08	Metastatic melanoma
+PM09	NSCLC (both lungs)
+PM10	NSCLC
+PM11	Multiple bacterial infections (mycobacterium and pseudomonas)
+PM12	NSCLC
+PM13	No atypia or infection identified
+PM14	No atypia or infection identified
+PM15	"Definitive diagnosis not reached, but not cancer."
+PM16	"Inflammation, aspirated food (""vegetable matter"") in a background of bacterial infection"
+PM19	Small cell lung cancer
