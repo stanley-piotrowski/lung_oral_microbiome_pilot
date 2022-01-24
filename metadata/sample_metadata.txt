@@ -1,24 +1,23 @@
-16S library prep ID (8/30/21)	DNA Purif. ID for 6/18/21	PM #	Appt Date	Sample type	Swab Collection Buffer	Re-reviewedRe-reviewed		
-Lung4	4	PM14	5/18/21	Right Lung	Sheild	Y - [PM14] Collecting lung microbiome in RNA/DNA shield and oral in Amies.		
-Lung5	5	PM14	5/18/21	Left Lung	Sheild			
-Lung6	6	PM14	5/18/21	Oral	Amie's			
-Lung7	7	PM15	5/18/21	Right Lung	Sheild	Y - [PM15] Collecting lung microbiome in RNA/DNA shield and oral in Amies.		
-Lung8	8	PM15	5/18/21	Left Lung	Sheild			
-Lung9	9	PM15	5/18/21	Oral	Amie's			
-Lung10	10	PM16	5/18/21	Right Lung	Sheild	Y - [PM16] All samples collected in RNA/DNA shield. Left O/n @ RT. Placed in -80C ~16hrs post collection		
-Lung11	11	PM16	5/18/21	Left Lung	Sheild			
-Lung12	12	PM16	5/18/21	Oral	Sheild			
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-								
+library_prep_id	dna_extract_id	pm_id	appt_date	sample_type	swab_buffer	re_reviewed
+Lung4	4	PM14	5/18/21	Right Lung	Sheild	Y - [PM14] Collecting lung microbiome in RNA/DNA shield and oral in Amies.
+Lung5	5	PM14	5/18/21	Left Lung	Sheild	
+Lung6	6	PM14	5/18/21	Oral	Amie's	
+Lung7	7	PM15	5/18/21	Right Lung	Sheild	Y - [PM15] Collecting lung microbiome in RNA/DNA shield and oral in Amies.
+Lung8	8	PM15	5/18/21	Left Lung	Sheild	
+Lung9	9	PM15	5/18/21	Oral	Amie's	
+Lung10	10	PM16	5/18/21	Right Lung	Sheild	Y - [PM16] All samples collected in RNA/DNA shield. Left O/n @ RT. Placed in -80C ~16hrs post collection
+Lung11	11	PM16	5/18/21	Left Lung	Sheild	
+Lung12	12	PM16	5/18/21	Oral	Sheild	
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
