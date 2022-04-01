@@ -12,6 +12,9 @@ pacman::p_load(tidyverse, phyloseq)
 files <- list.files("./data", ".Rds", full.names = TRUE)
 ps <- purrr::map(files, ~ readRDS(.x))
 
+map(ps, ~ data.frame(reads = phyloseq::sample_sums(.x)))
+
+
 # Get sample sums
 ps_sums <- purrr::map2(ps, c(1, 2), ~ phyloseq::sample_sums(.x) %>% 
                         data.frame() %>% 
